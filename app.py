@@ -79,4 +79,6 @@ def test():
                                         data_covid3 = data_covid3,
                                         display_field1 = display_field1)
 
+if __name__ == "__main__":
 
+    app.run(host="0.0.0.0")
