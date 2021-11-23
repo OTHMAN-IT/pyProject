@@ -1,9 +1,6 @@
-import json
-import falcon
+
 import folium
-import numpy as np
-import requests, pandas as pd
-#from bs4 import BeautifulSoup
+import pandas as pd
 
 def covid():
  api_covid = pd.read_csv('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/11-22-2021.csv')
